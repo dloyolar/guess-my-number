@@ -53,7 +53,6 @@ document.querySelector('.check').addEventListener('click', function () {
 
 document.querySelector('.again').addEventListener('click', function () {
   generateNumber(40);
-  console.log(secretNumber);
   score = 20;
   displayMessage('.score', score);
   document.querySelector('body').style.backgroundColor = '#222';
